@@ -32,3 +32,7 @@ redis启动
 
 	在启动nginx时，提示没有找到libprce.so.1 用如下命令
 	ldd $(which /usr/local/nginx/sbin/nginx)
+
+9 tar 命令
+ tar.gz 解压 tar -zxvf xx.tar.gz
+ tar.bz2 解压 tar -jxvf xx.tar.bz2
