@@ -36,3 +36,7 @@ redis启动
 9 tar 命令
  tar.gz 解压 tar -zxvf xx.tar.gz
  tar.bz2 解压 tar -jxvf xx.tar.bz2
+
+ 10 查看系
+    cat /etc/issue
+    uname -a
