@@ -1,14 +1,16 @@
 
 1 安装
-安装脚本
-hosts: localhost
+	 ansible-galaxy install mescanef.zabbix-server
+
+	安装脚本
+	hosts: localhost
  
-  become: yes
-  roles:
-    - { role: geerlingguy.apache }
-    #如果要安装数据库
-#    - { role: geerlingguy.mysql } 
-     - { role: mescanef.zabbix-server }
+  	become: yes
+  	roles:
+    	- { role: geerlingguy.apache }
+    	#如果要安装数据库
+	#    - { role: geerlingguy.mysql } 
+     	- { role: mescanef.zabbix-server }
 
  zabbix_vhost= false
 
