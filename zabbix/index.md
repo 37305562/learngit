@@ -1,5 +1,5 @@
 
-1 安装
+- 1 安装
 	 ansible-galaxy install mescanef.zabbix-server
 
 	安装脚本
