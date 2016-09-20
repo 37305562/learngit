@@ -8,7 +8,7 @@
   	become: yes
   	roles:
     	\- { role: geerlingguy.apache }
-    	\#如果要安装数据库
+    	\# 如果要安装数据库
 	\#    - { role: geerlingguy.mysql } 
      	\- { role: mescanef.zabbix-server }
 
