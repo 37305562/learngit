@@ -1,6 +1,6 @@
 来源于http://www.liaoxuefeng.com
 
-创建版本库
+- 1 创建版本库
 	git init
 	git add readme.txt
 	git commit -m "wrote a readme file"
